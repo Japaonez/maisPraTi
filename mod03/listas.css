@@ -1,0 +1,35 @@
+.listaNaoOrdenado {
+    list-style-type: square;
+}
+
+nav#menu {
+    border: 3px solid blue;
+    display: block;
+}
+
+nav#menu ul {
+    list-style-type: none;
+}
+
+nav#menu li {
+    border: 2px solid red;
+    display: inline-block;
+    
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+table {
+    border: 2px solid cyan;
+}
+
+table th {
+    background-color: brown;
+}
+
+table td {
+    color: red;
+    border: 2px solid green;
+}

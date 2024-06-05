@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+
+    <style>
+        /* @import url(./estilo.css); */
+
+        #principal {
+            background-color: rgb(117, 144, 235);
+        }
+
+        #topo {
+            border: 3px solid green;
+        }
+
+        #conteudo {
+            border: 3px solid black;
+        }
+
+        #rodape {
+            background-color: azure;
+        }
+
+        .produtos {
+            font-size: 50px;
+            border: 3px solid yellow;
+            margin: 10px;
+        }
+
+        #assinatura {
+            background: pink;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: red;
+        }
+
+        a:visited {
+            color: white;
+        }
+
+        a:hover {
+            background-color: black;
+        }
+
+        a:active {
+            color: purple;
+            text-transform: uppercase;
+            cursor: crosshair;
+        }
+    </style>
+</head>
+<body id="principal">
+    <div id="topo">
+        <img src="img/yoshi.png" alt="">
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+    
+    <div id="conteudo">
+        <div class="produtos">
+            Produto 1
+        </div>
+
+        <div class="produtos">
+            Produto 2
+        </div>
+
+        <div>
+            Produto 3
+        </div>
+    </div>
+
+    <div id="rodape">
+        <p>Todos os direitos reservador &copy; <span id="assinatura">Professor Jaques</span></p>
+    </div>
+
+</body>
+</html>
