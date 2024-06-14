@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seletores</title>
+
+    <!-- <link rel="stylesheet" href="./estilo.css"> -->
+     <style>
+        /**{
+            border: 2px solid;
+        }*/
+
+        h2{
+            color: red;
+        }
+
+        .classe01{
+            border: 2px solid;
+        }
+
+        p.classe01{
+            background-color: orange;
+        }
+
+        #conteudo{
+            border: 2px solid green;
+        }
+
+        ul > a{
+            text-decoration: none;
+        }
+
+        h2+p{ /* proximo "p" colado ao "h2" */
+            background-color: red;
+        }
+
+        h2~p{ /* proximo "p" independente da posição */
+            background-color: aqua;
+        }
+     </style>
+</head>
+<body>
+    <div class="classe01">
+        <h2>Título 02</h2>
+        <p class="classe01">
+            Texto <a href="#">Clique aqui</a>
+        </p>
+    </div>
+
+    <p class="classe01">
+        Outro parágrafo
+    </p>
+
+    <ul>
+        <li>
+            <a href="#">Página principal</a>
+        </li>
+
+        <li>
+            <a href="#">Links úteis</a>
+        </li>
+
+        <li>
+            <a href="#">Sobre o desenvolvedor</a>
+        </li>
+    </ul>
+
+    <div id="conteudo">
+        <h2>Título 03</h2>
+        <p>
+            Texto <a href="#">Clique aqui</a>
+        </p>
+    </div>
+</body>
+</html>

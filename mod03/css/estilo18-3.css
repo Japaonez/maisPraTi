@@ -1,0 +1,28 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a{
+    width: 200px;
+    height: 40px;
+    color: #000;
+    text-decoration: none;
+    line-height: 40px;
+    text-indent: 40px;
+    background: #4329 no-repeat left bottom;
+    display: block;
+}
+
+a:hover{
+    background-color: blue;
+    color:white;
+}
+
+#home #nav .home a,
+#servico #nav .servico a, 
+#sobre #nav .sobre a{
+    background-color: bisque;
+    font-style: oblique;
+}

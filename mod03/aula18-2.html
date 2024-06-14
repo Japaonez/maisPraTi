@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inheritance and Specificity</title>
+
+    <style>
+        div{
+            border: 2px solid;
+        }
+
+        #div01 p{
+            color: red !important;
+        }
+
+        #div01 p{
+            color: blue;
+        }
+
+        h1#textoPrincipal{
+            text-transform: uppercase;
+        }
+
+        h1{
+            text-transform: lowercase;
+        }
+    </style>
+</head>
+<body>
+    <div id="div01" class="classeDiv01">
+        <h1 id="textoPrincipal">Texto Principal</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quasi ipsam hic nisi eius deserunt tempore accusantium delectus necessitatibus. Consequatur?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorem quibusdam et.
+        </p>
+    </div>
+</body>
+</html>
