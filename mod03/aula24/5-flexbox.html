@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox</title>
+
+    <style>
+        #content{
+            background-color: grey;
+            height: 300px;
+
+            display: flex;
+            /*flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: flex-start;*/
+            align-items: center;
+        }
+
+        .item{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background: cadetblue;
+            border: 3px solid;
+
+            flex-basis: auto;
+        }
+
+        .item1{
+            flex-grow: 1;
+        }
+
+        .item2{
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox</h1>
+
+    <div id="content">
+        <div class="item">01</div>
+        <div class="item item1">02</div>
+        <div class="item item2">03</div>
+        <div class="item">04</div>
+    </div>
+</body>
+</html>

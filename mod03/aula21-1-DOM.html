@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript acplicando CSS</title>
+
+    <style>
+        button{
+            display: block;
+        }
+
+        div{
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            margin: 10px;
+            display: inline-block
+        }
+    </style>
+    <script>
+        function trocarEstilizacao(cor){
+            let body = document.body
+            body.style.backgroundColor = cor
+        }
+    </script>
+</head>
+<body>
+    <button type="button" onclick="trocarEstilizacao('orange')">Laranja</button>
+    <div class="1"></div>
+    <div class="2"></div>
+    <div class="3"></div>
+    <div class="4"></div>
+    <div class="5"></div>
+    <div class="6"></div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filmes>
+    <filme id="1">
+        <titulo>Kill Bill</titulo>
+        <resumo>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores iure magnam non. Sit aperiam illum odio vel, debitis tempore, nemo dolorem obcaecati repellat incidunt possimus ipsum accusamus optio dolores consectetur.</resumo>
+        <genero>Ação</genero>
+        <genero>Aventura</genero>
+        <elenco>
+            <ator>Wagner Moura</ator>
+            <ator>Rodrigo Santoro</ator>
+            <ator>Lázaro Ramos</ator>
+        </elenco>
+    </filme>
+
+    <filme id="2">
+        <titulo>A Viagem de Chihiro</titulo>
+        <resumo>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores iure magnam non. Sit aperiam illum odio vel, debitis tempore, nemo dolorem obcaecati repellat incidunt possimus ipsum accusamus optio dolores consectetur.</resumo>
+        <genero>Animação</genero>
+        <genero>Comédia</genero>
+        <elenco>
+            <ator>Anne Hathaway</ator>
+            <ator>Emma Watson</ator>
+            <ator>Tom Cruise</ator>
+        </elenco>
+    </filme>
+
+    <filme id="3">
+        <titulo>John Wick</titulo>
+        <resumo>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores iure magnam non. Sit aperiam illum odio vel, debitis tempore, nemo dolorem obcaecati repellat incidunt possimus ipsum accusamus optio dolores consectetur.</resumo>
+        <genero>Violência</genero>
+        <genero>Drama</genero>
+        <elenco>
+            <ator>Robison Crusue</ator>
+            <ator>The Rock</ator>
+            <ator>É isso</ator>
+        </elenco>
+    </filme>
+</filmes>

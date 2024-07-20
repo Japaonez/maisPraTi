@@ -1,0 +1,37 @@
+{
+    "filmes": [
+        {
+            "titulo": "Vingadores",
+            "resumo": "lorem",
+            "generos": [
+                {"genero": "Policial"},
+                {"genero": "Ação"}
+            ],
+            "elenco": [
+                {"ator": "Wagner Moura"}
+            ]
+        },
+        {
+            "titulo": "Viagem de Chihiro",
+            "resumo": "lorem",
+            "generos": [
+                {"genero": "Animação"},
+                {"genero": "Drama"}
+            ],
+            "elenco": [
+                {"ator": "Chihiro"}
+            ]
+        },
+        {
+            "titulo": "Interestelar",
+            "resumo": "lorem",
+            "generos": [
+                {"genero": "Ficção Científica"},
+                {"genero": "Espacial"}
+            ],
+            "elenco": [
+                {"ator": "Matt Damon"}
+            ]
+        }
+    ]
+}

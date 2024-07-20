@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Browser Object Model</title>
+
+    <script>
+        let janela
+
+        function openPopUp(){
+            janela = window.open("", "nova_janela", "width=200, height=100")
+        }
+
+        function closePopUp(){
+            janela.close()
+        }
+        let largura = window.screen.width
+
+        document.write(largura)
+    </script>
+</head>
+<body>
+    <button onclick="openPopUp()">Abrir Janela</button>
+    <button onclick="closePopUp()">Fechar Janela</button>
+    <button onclick="window.print()">Imprimir Janela</button>
+</body>
+</html>
